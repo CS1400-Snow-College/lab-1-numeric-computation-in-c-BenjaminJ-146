@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Clear();
+
+// Step 1
+int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+
+c = a - b;
+Console.WriteLine(c);
+
+c = a * b;
+Console.WriteLine(c);
+
+c = a / b;
+Console.WriteLine(c);
