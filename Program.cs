@@ -69,3 +69,17 @@ Console.WriteLine($"The range of doulbe is {min2} to {max2}");
 
 double third = 1.0 / 3.0;
 Console.WriteLine(third);
+
+// Step 5
+decimal min3 = decimal.MinValue;
+decimal max3 = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min3} to {max3}");
+
+f = 1.0;
+g = 3.0;
+Console.WriteLine(f /g);
+
+decimal j = 1.0M;
+decimal k = 3.0M;
+Console.WriteLine(j / k);
+
